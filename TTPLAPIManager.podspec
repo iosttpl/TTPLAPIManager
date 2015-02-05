@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TTPLAPIManager"
-  s.version          = "=0.1.0"
+  s.version          = "0.1.0"
   s.summary          = "TTPL API manager."
   s.description      = "TTPL API Manager is using the AFNetworking to make api request. This Manager will handle all the API request and send back the succuess or failure response to the respective classes. APIKey.h file contains all the API related configurations."
 

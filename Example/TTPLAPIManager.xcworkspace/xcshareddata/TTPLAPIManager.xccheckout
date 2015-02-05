@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5E5C38E9-CDDC-4567-B99C-A41A5EAC1974</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TTPLAPIManager</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>37d3845a-d7dc-11e2-a139-4354f2cf2fd6++2156</key>
+		<string>https://private.idc.tarento.com/svn/g4s/Construct/SourceCode/Dispatcher/iOS/trunk</string>
+		<key>56C8243512A57FE2C4C5D4E8F25D210E699D300D</key>
+		<string>github-iosttpl:iosttpl/TTPLAPIManager.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example/TTPLAPIManager.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>37d3845a-d7dc-11e2-a139-4354f2cf2fd6++2156</key>
+		<string>../../../..</string>
+		<key>56C8243512A57FE2C4C5D4E8F25D210E699D300D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>37d3845a-d7dc-11e2-a139-4354f2cf2fd6++2156</key>
+		<string>https://private.idc.tarento.com/svn/g4s</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github-iosttpl:iosttpl/TTPLAPIManager.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>56C8243512A57FE2C4C5D4E8F25D210E699D300D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>37d3845a-d7dc-11e2-a139-4354f2cf2fd6++2156</string>
+			<key>IDESourceControlWCCName</key>
+			<string>..</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>56C8243512A57FE2C4C5D4E8F25D210E699D300D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TTPLAPIManager</string>
+		</dict>
+	</array>
+</dict>
+</plist>

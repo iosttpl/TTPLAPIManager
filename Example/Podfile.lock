@@ -1,0 +1,14 @@
+PODS:
+  - TTPLAPIManager (0.1.0)
+
+DEPENDENCIES:
+  - TTPLAPIManager (from `../`)
+
+EXTERNAL SOURCES:
+  TTPLAPIManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TTPLAPIManager: aaa357b90e30434cd1bb570b66910747be0772c9
+
+COCOAPODS: 0.35.0

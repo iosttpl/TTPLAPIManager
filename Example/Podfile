@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'TTPLAPIManager', :exclusive => true do
+  pod "TTPLAPIManager", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "TTPLAPIManager", :path => "../"
+
+  
+end

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5004CB041A8356280017AC42 /* APIBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5004CAFF1A8356280017AC42 /* APIBase.m */; };
-		5004CB051A8356280017AC42 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5004CB021A8356280017AC42 /* APIManager.m */; };
+		5004CB0D1A8362AE0017AC42 /* APIBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5004CB081A8362AE0017AC42 /* APIBase.m */; };
+		5004CB0E1A8362AE0017AC42 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5004CB0B1A8362AE0017AC42 /* APIManager.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -42,12 +42,12 @@
 		15748AD2261097CFCAB8E117 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		344E1D3EA725F7F5F93C6028 /* TTPLAPIManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TTPLAPIManager.podspec; path = ../TTPLAPIManager.podspec; sourceTree = "<group>"; };
 		42ACB6AAFD2A0190CF4D65E9 /* Pods-TTPLAPIManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTPLAPIManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTPLAPIManager/Pods-TTPLAPIManager.release.xcconfig"; sourceTree = "<group>"; };
-		5004CAFE1A8356280017AC42 /* APIBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIBase.h; sourceTree = "<group>"; };
-		5004CAFF1A8356280017AC42 /* APIBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIBase.m; sourceTree = "<group>"; };
-		5004CB001A8356280017AC42 /* ApiKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiKeys.h; sourceTree = "<group>"; };
-		5004CB011A8356280017AC42 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
-		5004CB021A8356280017AC42 /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
-		5004CB031A8356280017AC42 /* TTPLAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPLAPIManager.h; sourceTree = "<group>"; };
+		5004CB071A8362AE0017AC42 /* APIBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIBase.h; sourceTree = "<group>"; };
+		5004CB081A8362AE0017AC42 /* APIBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIBase.m; sourceTree = "<group>"; };
+		5004CB091A8362AE0017AC42 /* ApiKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiKeys.h; sourceTree = "<group>"; };
+		5004CB0A1A8362AE0017AC42 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		5004CB0B1A8362AE0017AC42 /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		5004CB0C1A8362AE0017AC42 /* TTPLAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPLAPIManager.h; sourceTree = "<group>"; };
 		5F579D863989B8BBAEDD8B47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TTPLAPIManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTPLAPIManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -114,23 +114,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5004CAFD1A8356280017AC42 /* Classes */ = {
+		5004CB061A8362AE0017AC42 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5004CAFE1A8356280017AC42 /* APIBase.h */,
-				5004CAFF1A8356280017AC42 /* APIBase.m */,
-				5004CB001A8356280017AC42 /* ApiKeys.h */,
-				5004CB011A8356280017AC42 /* APIManager.h */,
-				5004CB021A8356280017AC42 /* APIManager.m */,
-				5004CB031A8356280017AC42 /* TTPLAPIManager.h */,
+				5004CB071A8362AE0017AC42 /* APIBase.h */,
+				5004CB081A8362AE0017AC42 /* APIBase.m */,
+				5004CB091A8362AE0017AC42 /* ApiKeys.h */,
+				5004CB0A1A8362AE0017AC42 /* APIManager.h */,
+				5004CB0B1A8362AE0017AC42 /* APIManager.m */,
+				5004CB0C1A8362AE0017AC42 /* TTPLAPIManager.h */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				5004CAFD1A8356280017AC42 /* Classes */,
+				5004CB061A8362AE0017AC42 /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* TTPLAPIManager */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -384,10 +385,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* TTPLAppDelegate.m in Sources */,
-				5004CB041A8356280017AC42 /* APIBase.m in Sources */,
+				5004CB0D1A8362AE0017AC42 /* APIBase.m in Sources */,
 				6003F5A7195388D20070C39A /* TTPLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				5004CB051A8356280017AC42 /* APIManager.m in Sources */,
+				5004CB0E1A8362AE0017AC42 /* APIManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

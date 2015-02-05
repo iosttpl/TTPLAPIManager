@@ -1,5 +1,4 @@
 # TTPLAPIManager
-<<<<<<< HEAD
 
 [![CI Status](http://img.shields.io/travis/Subramanian/TTPLAPIManager.svg?style=flat)](https://travis-ci.org/Subramanian/TTPLAPIManager)
 [![Version](https://img.shields.io/cocoapods/v/TTPLAPIManager.svg?style=flat)](http://cocoadocs.org/docsets/TTPLAPIManager)
@@ -27,6 +26,3 @@ Subramanian, mailmemani@ymail.com
 
 TTPLAPIManager is available under the MIT license. See the LICENSE file for more info.
 
-=======
-API Manager
->>>>>>> 3d5ad2be0140e81c4037e75f3d433da0f560d021

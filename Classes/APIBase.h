@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AFNetworking.h>
+#import "AFNetworking.h"
 
 /*!
  @discussion This is an API base model. Every API classes should be a subclass

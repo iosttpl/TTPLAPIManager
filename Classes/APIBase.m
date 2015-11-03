@@ -11,41 +11,48 @@
 
 @interface APIBase (Private)
 @property(readwrite, nonatomic, strong)
-    NSMutableDictionary *parametersDictionary;
+NSMutableDictionary *parametersDictionary;
 @property(readwrite, nonatomic, strong) NSString *requestType;
 @end
 
 @implementation APIBase
 
 - (instancetype)init {
-  if (self = [super init]) {
-  }
-  return self;
+    if (self = [super init]) {
+    }
+    return self;
 }
 
 - (NSString *)baseURL {
-  return (ShouldUseProductionUrl) ? APIProductionUrl : APIStaginUrl;
+    return (ShouldUseProductionUrl) ? APIProductionUrl : APIStaginUrl;
 }
 
 - (NSString *)urlForAPIRequest {
-  return @"";
+    return @"";
+}
+
+- (NSString *)localFileName {
+    return @"";
 }
 
 - (NSString *)apiAuthenticationUsername {
-  return @"";
+    return @"";
 }
 
 - (NSString *)apiAuthenticationPassword {
-  return @"";
+    return @"";
 }
 
 - (NSString *)requestType {
-  // Default Request Type
-  return APIGet;
+    // Default Request Type
+    return APIGet;
 }
 
 - (NSDictionary *)requestParameters {
-  return nil;
+    return nil;
+}
+
+- (void)updateMultipartFormData:(id<AFMultipartFormData>)formData {
 }
 
 - (void)parseAPIResponse:(NSDictionary *)responseDictionary {

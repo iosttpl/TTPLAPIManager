@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BCD3C1DC2333140FBDF1C482915B90A861897624",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "37d3845a-d7dc-11e2-a139-4354f2cf2fd6++2156" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BCD3C1DC2333140FBDF1C482915B90A861897624" : 0,
+    "37d3845a-d7dc-11e2-a139-4354f2cf2fd6++2156" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5E5C38E9-CDDC-4567-B99C-A41A5EAC1974",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BCD3C1DC2333140FBDF1C482915B90A861897624" : "TTPLAPIManager",
+    "37d3845a-d7dc-11e2-a139-4354f2cf2fd6++2156" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TTPLAPIManager",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/TTPLAPIManager.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/private.idc.tarento.com\/svn\/g4s",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "37d3845a-d7dc-11e2-a139-4354f2cf2fd6++2156"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github-iosttpl:iosttpl\/TTPLAPIManager.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BCD3C1DC2333140FBDF1C482915B90A861897624"
+    }
+  ]
+}

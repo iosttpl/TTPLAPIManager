@@ -23,6 +23,7 @@ static BOOL ShouldUseProductionUrl = YES;
 // API Request Type
 static NSString *const APIGet = @"GET";
 static NSString *const APIPost = @"POST";
+static NSString *const APIDelete = @"DELETE";
 
 // Timeout interval
 static float APITimeOut = 10.0f;
